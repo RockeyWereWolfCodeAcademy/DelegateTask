@@ -17,7 +17,7 @@ namespace ExamDelegateTask
                 string name = Console.ReadLine();
                 Console.Write("Enter subject of the exam: ");
                 string subject = Console.ReadLine();
-                Console.Write("Enter grade of student(0-100): ");
+                Console.Write("Enter grade of student: ");
                 byte grade = Convert.ToByte(Console.ReadLine());
                 Console.Write("When exam started?(day/mounth/year hour:minutes): ");
                 DateTime dateStart = DateTime.Parse(Console.ReadLine());
